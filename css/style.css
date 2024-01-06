@@ -16,6 +16,13 @@
             position: absolute;
         }
 
+        video {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            display: block; /* Mencegah margin bawah pada beberapa browser */
+          }
+
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 .team3 {
   font-family: "Montserrat", sans-serif;
